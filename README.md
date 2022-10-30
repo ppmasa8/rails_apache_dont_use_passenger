@@ -1,1 +1,4 @@
 # rails_apache_dont_use_passenger
+
+仮想環境でどうしてもメモリが増やせなくて、passagerのコンパイルができない
+時に、apacheとrailsを連携させる方法。
