@@ -1,0 +1,1 @@
+# rails_apache_dont_use_passenger
