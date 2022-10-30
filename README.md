@@ -9,6 +9,8 @@ apacheのこのディレクトリにアクセスが来たら、指定したURL�
 擬似的にapacheとrailsを連携させることができる
 
 ```
+/etc/httpd/conf/httpd.conf
+
 ProxyPass /app/ http://127.0.0.1:3000/
 ProxyPassReverse /app/ http://127.0.0.1:3000/
 ```
