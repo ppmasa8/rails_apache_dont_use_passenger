@@ -14,3 +14,5 @@ apacheのこのディレクトリにアクセスが来たら、指定したURL�
 ProxyPass /app/ http://127.0.0.1:3000/
 ProxyPassReverse /app/ http://127.0.0.1:3000/
 ```
+
+参考：https://www.magata.net/memo/index.php?Apache%A4%C8Rails%A4%F2mod_proxy%A4%C7%CF%A2%B7%C8%A4%B9%A4%EB
